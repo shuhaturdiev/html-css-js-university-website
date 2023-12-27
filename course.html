@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jeonbuk National University">
+    <meta name="description" content="The university located in Jeonju city is specialized in Global requirements!">
+    <meta name="author" content="Shukhrat Turdiev">
+    <title>Jeonbuk National University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ixon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- Course Section  -->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Make a change and have a real impact on sustainability!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Intermediate courses are designed for those who have a passion or an interest in a particular area but might need more support when it comes to technical and study skills. You might also need to retake.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advanced Degree</h3>
+                <p>Advanced course means a course that presents material and concepts beyond the introductory or the elementary; a course that carries on from an introductory or elementary course given in the same school.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>A postgraduate is a student who has successfully completed an undergraduate degree level course at a college or university and is undertaking further study at a more advanced level.</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Facilities Section -->
+
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our lab and testing facilities host practicals for undergraduates, post-graduate and academic research, as well as collaborative projects with industry.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <div class="facilities-image">
+                    <img src="images/library.png" alt="Library">
+                </div>
+                <h3>World-Class Library</h3>
+                <p>The Central Library is the indispensable hub of discovery, learning and creativity at DEI by providing a
+                    distinguished collection of information resources unbounded by place and preserved for future generations and other things.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <div class="facilities-image">
+                    <img src="images/basketball.png" alt="Basketball">
+                </div>
+                <h3>Largest Playground</h3>
+                <p>Children have been let loose at what is claimed to be the world's biggest play park. Lilidorei is located 
+                    in Alnwick Gardens, next to the Northumbrian castle used in the Harry Potter films and any other movies in the whole world.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <div class="facilities-image">
+                    <img src="images/cafeteria.png" alt="Cafeteria">
+                </div>
+                <h3>Tasty and Health Food</h3>
+                <p>Breakfast and lunch are available daily in our cafeteria. All food and beverages sold at schools meet 
+                    state and federal requirements based on USDA Dietary Guidelines. Our hardworking staff provides students with a variety of affordable.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Jeonbuk National University established the first high-temperature plasma application research <br>center in South Korea and the fifth such center in the world.</p>
+        <div class="icons">
+            <a target="_blank" href="https://www.youtube.com/@jbnuoia"><i class="fa-brands fa-youtube"></i></a>
+            <a target="_blank" href="https://www.instagram.com/jbnu1947/"><i class="fa-brands fa-instagram"></i></a>
+            <a  target="_blank"href="https://www.facebook.com/cbnu.klec"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/search?q=jbnu%20&src=typed_query"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.jbnu.ac.kr/kor/"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <p>Made with ❤️ by Shukhrat Turdiev</p>
+    </section>
+
+    <!-- Javacript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jeonbuk National University">
+    <meta name="description" content="The university located in Jeonju city is specialized in Global requirements!">
+    <meta name="author" content="Shukhrat Turdiev">
+    <title>Jeonbuk National University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ixon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>With 3.5 million students matriculated, the Jeonbuk National University in South Korea (JBNUSK) from South Korea is the largest university in the world. It accepts almost 20 percent of all students in South Korea. This number is even bigger if it is compared to Germany, where 2.7 million students in total are matriculated.</p>
+                <a href="#" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="About Us Picture">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Jeonbuk National University established the first high-temperature plasma application research <br>center in South Korea and the fifth such center in the world.</p>
+        <div class="icons">
+            <a target="_blank" href="https://www.youtube.com/@jbnuoia"><i class="fa-brands fa-youtube"></i></a>
+            <a target="_blank" href="https://www.instagram.com/jbnu1947/"><i class="fa-brands fa-instagram"></i></a>
+            <a  target="_blank"href="https://www.facebook.com/cbnu.klec"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/search?q=jbnu%20&src=typed_query"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.jbnu.ac.kr/kor/"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <p>Made with ❤️ by Shukhrat Turdiev</p>
+    </section>
+
+    <!-- Javacript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

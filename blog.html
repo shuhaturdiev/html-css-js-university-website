@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jeonbuk National University">
+    <meta name="description" content="The university located in Jeonju city is specialized in Global requirements!">
+    <meta name="author" content="Shukhrat Turdiev">
+    <title>Jeonbuk National University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ixon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="Certificate">
+                <h2>Our Certificate & Online Programs for 2021</h2>
+                <p>Student achievement measures the amount of academic content a student learns in a determined amount of time. Each grade level has learning goals or instructional standards that educators are required to teach. Standards are similar to a 'to-do' list that a teacher can use to guide instruction.</p>
+                <br>
+                <p>Academic achievement is the extent to which a student or institution has achieved either short or long term educational goals. Achievement may be measured through students' grade point average, whereas for institutions, achievement may be measured through graduation rates.</p>
+                <br>
+                <p>Achievements are the building blocks that enable someone to construct a sense of themselves as a success. The achievements that matter most combine to form a version of success that has meaning and substance for the individual. When you achieve, Everyone says I knew that.</p>
+                <br>
+                <p>The word achievement is used in connection with the realization of one's goals. On the other hand the word success is used in the sense of fulfilling certain conditions necessary to reach the goal. Success leads to achievement.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="button" class="hero-btn red-btn" >POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analitics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Footer Section -->
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Jeonbuk National University established the first high-temperature plasma application research <br>center in South Korea and the fifth such center in the world.</p>
+        <div class="icons">
+            <a target="_blank" href="https://www.youtube.com/@jbnuoia"><i class="fa-brands fa-youtube"></i></a>
+            <a target="_blank" href="https://www.instagram.com/jbnu1947/"><i class="fa-brands fa-instagram"></i></a>
+            <a  target="_blank"href="https://www.facebook.com/cbnu.klec"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/search?q=jbnu%20&src=typed_query"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="https://www.jbnu.ac.kr/kor/"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <p>Made with ❤️ by Shukhrat Turdiev</p>
+    </section>
+
+    <!-- Javacript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
